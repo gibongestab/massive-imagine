@@ -1,10 +1,44 @@
 <template name="home">
-{{> about }}
-{{> bricks }}
-{{> conhecimentos }}
-{{> portfolio }}
-{{> encomendas }}
-{{> form }}
+
+  <div class="wrapper">
+    {{> header}}
+   
+    {{> hero }}
+
+    <section class="body-content">
+
+      {{> about }}
+
+      {{> progressSection}}
+  
+      {{> blogPost }}
+  
+      {{> subscribe}}
+
+      {{> clientsTestimonials}}
+
+      {{> portfolio }}
+
+      {{> promoBox}}
+    </section>
+
+      {{> footer}}
+
+  </div>
+  <!-- Placed js at the end of the document so the pages load faster -->
+  <!--
+  [OK] <script src="js/menuzord.js"></script> 
+  [OK] <script src="js/jquery.flexslider-min.js"></script>
+  [OK] <script src="js/owl.carousel.min.js"></script>
+  [OK] <script src="js/jquery.isotope.js"></script>
+  [OK] [?] <script src="js/jquery.magnific-popup.min.js"></script>
+  [OK] <script src="js/jquery.countTo.js"></script>
+  [OK] <script src="js/jquery.countdown.js"></script>
+  [OK] [?] <script src="js/visible.js"></script>
+  [OK] <script src="js/smooth.js"></script>
+  [OK] <script src="js/wow.min.js"></script>
+  [OK] <script src="js/imagesloaded.js"></script>
+  -->
+  <!--common scripts-->
+  <!--<script src="js/scripts.js?8"></script>-->
 </template>
-
-
