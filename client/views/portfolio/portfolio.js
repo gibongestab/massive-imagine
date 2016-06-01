@@ -152,6 +152,40 @@
             fixedContentPos: false
         });
 
+           /* ---------------------------------------------
+         flex slider
+         --------------------------------------------- */
+
+
+
+            $('.portfolio-slider').flexslider({
+                animation: "slide",
+                direction: "vertical",
+                slideshowSpeed: 3000,
+                start: function () {
+                    imagesLoaded($(".portfolio"), function () {
+                        setTimeout(function () {
+                            $('.portfolio-filter li:eq(0) a').trigger("click");
+                        }, 500);
+                    });
+                }
+            });
+      
+
+      
+            $('.portfolio-slider-alt').flexslider({
+                animation: "slide",
+                direction: "horizontal",
+                slideshowSpeed: 4000,
+                start: function () {
+                    imagesLoaded($(".portfolio"), function () {
+                        setTimeout(function () {
+                            $('.portfolio-filter li:eq(0) a').trigger("click");
+                        }, 500);
+                    });
+                }
+            });
+        
 
 
 

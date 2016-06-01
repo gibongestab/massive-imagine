@@ -27,10 +27,11 @@ fortawesome:fontawesome
 natestrauser:animate-css
 timmyg:wow
 artjc:flexslider
-richsilv:owl-carousel
 isotope:isotope
 gabrielengel:konecty-magnific-popup
 mrt:jquery-imagesloaded
 slam310:smooth-scroll
 mrt:jquery-visible
 hilios:jquery.countdown
+gliese:masonry-desandro
+mrt:modernizr-meteor
